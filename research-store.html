@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ResearchFOLKS::Research Store</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicon -->
+  <link href="images/ResearchFolks.gif.png" rel="icon">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="lib/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="lib/icons/feather.css">
+
+  <!-- research-store dropdwon css -->
+  <link rel="stylesheet" href="css/select-search.css">
+
+  <!-- for sign-in/sign-up/cart/place0order/order-details/research-store/dashboard pages -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/dashboard-css/main.css">
+  <link rel="stylesheet" href="css/dashboard-css/lineicons.css">
+  <link rel="stylesheet" href="css/dashboard-css/materialdesignicons.min.css">
+
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body style="overflow-x: hidden;">
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+  </div>
+  <!-- Spinner End -->
+
+  <section class="bg1">
+    <div class="flex-containerrow1">
+
+      <div class="flex-item1">
+
+        <i class="fas fa-envelope"></i>
+        <p class="flex-item1para"> <a href="mailto:sales@researchfolks.com" target="_blank">sales@researchfolks.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="flex-containerrow2">
+
+      <div class="flex-item2">
+        <i class="fas fa-phone-volume subheader-phone"></i>
+        <p class="flex-item2para"><a href="tel:7177516964" target="_blank">PA (717) 751-6964</a></p>
+      </div>
+
+      <p class="mb-0">|</p>
+
+      <div class="flex-item2">
+        <a href="#"> <i class="fab fa-facebook-f subheader-icon1"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in subheader-icon2"></i></a>
+        <a href="#"><i class="fab fa-twitter subheader-icon3"></i></a>
+        <a href="#"><i class="fab fa-instagram subheader-icon4"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-navbar d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+
+        <h1> <img src="images/researchfolks-logo.png" alt=""> <span></span></h1>
+      </a>
+
+      <div class="d-flex align-items-center">
+        <a href="cart.html" class="mobile-cart">
+          <div class="cart">
+            <span class="count">0</span>
+            <!-- <i class="fas fa-shopping-cart"></i> -->
+            <i class="feather-shopping-cart shopping-cart"></i>
+          </div>
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="research-store.html" class="active">Research Store</a></li>
+          <li><a href="blog.html" class="">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Products</span> <i
+                class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Company Intelligence</a></li>
+              <li><a href="#">Industry Intelligence</a></li>
+              <li><a href="#">Research Databases</a></li>
+            </ul>
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+          <!-- <li> -->
+          <a href="cart.html" class="desktop-cart">
+            <div class="cart">
+              <span class="count">0</span>
+              <!-- <i class="fas fa-shopping-cart"></i> -->
+              <i class="feather-shopping-cart shopping-cart"></i>
+            </div>
+          </a>
+          <!-- </li> -->
+
+          <a href="sign-in.html" class="request-btn1">Login/Signup</a>
+
+          <a href="Become-Our-Analyst.html" class="request-btn2">Become Our Analyst</a>
+
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Section: Design Block -->
+  <section class="text-center" style="background-color: #f5f6f7; padding-top: 0px; padding-bottom: 70px;">
+    <!-- Background image -->
+    <div class="p-5 bg-image sign-up-img"></div>
+    <!-- Background image -->
+
+    <div class="col-md-12 m-auto">
+      <div class="card mx-3 mx-md-5 shadow-5-strong" style="
+      margin-top: -100px;
+      background: hsla(0, 0%, 100%, 0.8);
+      backdrop-filter: blur(30px);
+      ">
+
+        <div class="container py-5">
+          <div class="row d-flex justify-content-center my-4">
+            <h1 class="fw-bold mb-5 wow fadeInUp">Research Store</h1>
+
+
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <div class="card-header py-3">
+                  <h5 class="mb-0">Filter Reports</h5>
+                </div>
+                <div class="card-body" id="filterCardBody">
+
+
+
+                  <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item d-flex justify-content-center border-0 px-0 pb-0 ">
+                      <div class="col-12 col-md-11">
+                        <div class="align-self-center dropdown-research ">
+
+                          <button></button>
+
+                          <div class="options" style="">
+                            <input id="select-category" type="radio" name="region" value="selectcategory" checked>
+                            <label style="--index: 1;" for="select-category">Research Category</label>
+
+                            <input id="company-intelligence" type="radio" name="region" value="CompanyIntelligence">
+                            <label style="--index: 2;" for="company-intelligence">Company Intelligence</label>
+
+                            <input id="industry-intelligence" type="radio" name="region" value="IndustryIntelligence">
+                            <label style="--index: 3;" for="industry-intelligence">Industry Intelligence</label>
+
+                            <input id="others" type="radio" name="region" value="others">
+                            <label style="--index: 4;" for="others">Others</label>
+
+                          </div>
+
+                          <svg viewBox="0 0 24 24">
+                            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                          </svg>
+
+                        </div>
+                      </div>
+                    </li>
+
+                    <hr class="my-4"/>
+
+                    <!-- display block when click on company intelligence -->
+
+                    <div id="company-intelligance-select" class="company-intelligance">
+
+                      <li class="list-group-item d-flex justify-content-center border-0 px-0 pb-0">
+                        <div class="col-12 col-md-10 dropdown-checkbox mb-0">
+
+                          <!-- <i class="fas fa-chevron-down"></i> -->
+                          <label class="dropdown-checkbox-label dropdown-checkbox-label1">
+                            Company Type
+                          </label>
+
+                          <div class="dropdown-checkbox-list text-start">
+                            <!-- <div class="checkbox">
+                              <input type="checkbox" name="dropdown-checkbox-group-all"
+                                class="check-all checkbox-custom" id="checkbox-main" />
+                              <label for="checkbox-main" class="checkbox-custom-label">Selection All</label>
+                            </div> -->
+
+                            <div class="checkbox">
+                              <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                                id="checkbox-custom_01" value="139" />
+                              <label for="checkbox-custom_01" class="checkbox-custom-label">Public</label>
+                            </div>
+
+                            <div class="checkbox">
+                              <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                                id="checkbox-custom_02" value="140" />
+                              <label for="checkbox-custom_02" class="checkbox-custom-label">Private</label>
+                            </div>
+
+                            <div class="checkbox">
+                              <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                                id="checkbox-custom_03" value="141" />
+                              <label for="checkbox-custom_03" class="checkbox-custom-label">Non - Profit</label>
+                            </div>
+
+                            <div class="checkbox">
+                              <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                                id="checkbox-custom_04" value="142" />
+                              <label for="checkbox-custom_04" class="checkbox-custom-label"> Government Owned</label>
+                            </div>
+
+                            <div class="checkbox">
+                              <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                                id="checkbox-custom_05" value="143" />
+                              <label for="checkbox-custom_05" class="checkbox-custom-label"> Start Up </label>
+                            </div>
+
+                          </div>
+                        </div>
+                      </li>
+
+                      <li class="list-group-item d-flex justify-content-center border-0 px-0 pb-0">
+                        <div class="col-12 col-md-10 wrap">
+                          <button class="radio-dropdown">Head Count</button>
+                          <div class="radio-select">
+                            <label for="checkbox-1">
+                              <input class="form-check-input" value="1-50" id="checkbox-1" type="radio"
+                                name="Head Count">
+                              1-50
+                            </label>
+                            <label for="checkbox-2">
+                              <input class="form-check-input" value="51-100" id="checkbox-2" type="radio"
+                                name="Head Count">
+                              51-100
+                            </label>
+                            <label for="checkbox-3">
+                              <input class="form-check-input" value=" 101-250" id="checkbox-3" type="radio"
+                                name="Head Count">
+                              101-250
+                            </label>
+                            <label for="checkbox-4">
+                              <input class="form-check-input" value="251-500" id="checkbox-4" type="radio"
+                                name="Head Count">
+                              251-500
+                            </label>
+                            <label for="checkbox-5">
+                              <input class="form-check-input" value="501-1000" id="checkbox-5" type="radio"
+                                name="Head Count">
+                              501-1000
+                            </label>
+                            <label for="checkbox-6">
+                              <input class="form-check-input" value="1001-2500" id="checkbox-6" type="radio"
+                                name="Head Count">
+                              1001-2500
+                            </label>
+                            <label for="checkbox-7">
+                              <input class="form-check-input" value="2501-5000" id="checkbox-7" type="radio"
+                                name="Head Count">
+                              2501-5000
+                            </label>
+                            <label for="checkbox-8">
+                              <input class="form-check-input" value="5000+" id="checkbox-8" type="radio"
+                                name="Head Count">
+                              5001 &amp; above
+                            </label>
+                          </div>
+                        </div>
+
+                      </li>
+
+                      <li class="list-group-item d-flex justify-content-center border-0 px-0 pb-0">
+                        <div class="col-12 col-md-10 wrap">
+                          <button class="radio-dropdown">Revenue</button>
+                          <div class="radio-select">
+                            <label for="checkbox-9">
+                              <input class="form-check-input" value="0-1" id="checkbox-9" type="radio" name="revenue">
+                              $1 million
+                            </label>
+                            <label for="checkbox-10">
+                              <input class="form-check-input" value="1-5" id="checkbox-10" type="radio" name="revenue">
+                              $1-$5 million
+                            </label>
+                            <label for="checkbox-11">
+                              <input class="form-check-input" value="5-10" id="checkbox-11" type="radio" name="revenue">
+                              $5-$10 million
+                            </label>
+                            <label for="checkbox-12">
+                              <input class="form-check-input" value="10-50" id="checkbox-12" type="radio"
+                                name="revenue">
+                              $10-$50 million
+                            </label>
+                            <label for="checkbox-13">
+                              <input class="form-check-input" value="50-500" id="checkbox-13" type="radio"
+                                name="revenue">
+                              $50-$500 million
+                            </label>
+                            <label for="checkbox-14">
+                              <input class="form-check-input" value="1000+" id="checkbox-14" type="radio"
+                                name="revenue">
+                              $1000 million
+                            </label>
+                          </div>
+                        </div>
+
+                      </li>
+
+                    </div>
+
+                    <li class="list-group-item d-flex justify-content-center border-0 px-0 pb-0 mb-3">
+                      <div class="col-12 col-md-10">
+                        <div class="align-self-center search-container wrapper-column">
+                          <form name="countries" class="searchCountryForm" id="searchCountryForm">
+
+                            <div class="searchCountryForm-group">
+                              <span class="searchCountryForm-arrow">
+                                <svg viewBox="0 0 24 24">
+                                  <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                                </svg>
+                              </span>
+                              <select name="country" id="country" class="searchCountryDropdown">
+                                <option value="Select your region">Select your region</option>
+
+                                <option value="Asia Pacific">Asia Pacific</option>
+                                <option value="Europe">Europe</option>
+                                <option value="North America">North America</option>
+                                <option value="South & Latin America">South & Latin America</option>
+                                <option value="Rest Of The World">Rest Of The World</option>
+
+                              </select>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-center border-0 px-0 pb-0">
+                      <div class="col-12 col-md-10 dropdown-checkbox mb-0">
+
+                        <!-- <i class="fas fa-chevron-down"></i> -->
+                        <label class="dropdown-checkbox-label dropdown-checkbox-label2">
+                          Industry
+                        </label>
+
+                        <div class="dropdown-checkbox-list text-start">
+
+                          <!-- <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group-all" class="check-all checkbox-custom"
+                              id="checkbox-main1" />
+                            <label for="checkbox-main1" class="checkbox-custom-label">Selection All</label>
+                          </div> -->
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_21" value="Aerospace and Defense" />
+                            <label for="checkbox-custom_21" class="checkbox-custom-label">Aerospace and Defense</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_22" value="Automotive" />
+                            <label for="checkbox-custom_22" class="checkbox-custom-label">Automotive</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_23" value="Business and Consumer Services" />
+                            <label for="checkbox-custom_23" class="checkbox-custom-label">Business and Consumer
+                              Services</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_24" value="Chemicals" />
+                            <label for="checkbox-custom_24" class="checkbox-custom-label">Chemicals</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_25" value="Consumer Packaged Goods" />
+                            <label for="checkbox-custom_25" class="checkbox-custom-label">Consumer Packaged
+                              Goods</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_26" value="Energy and Utilities" />
+                            <label for="checkbox-custom_26" class="checkbox-custom-label">Energy and Utilities</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_27" value="Environmental and Waste Management Services" />
+                            <label for="checkbox-custom_27" class="checkbox-custom-label">Environmental and Waste
+                              Management Services</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_28" value="Financial Services" />
+                            <label for="checkbox-custom_28" class="checkbox-custom-label">Financial Services</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_29" value="General Business" />
+                            <label for="checkbox-custom_29" class="checkbox-custom-label">General Business</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_30" value="Government and Non-Profit Organisations" />
+                            <label for="checkbox-custom_30" class="checkbox-custom-label">Government and Non-Profit
+                              Organisations</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_31" value="Industrial Goods and Machinery" />
+                            <label for="checkbox-custom_31" class="checkbox-custom-label">Industrial Goods and
+                              Machinery</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_32" value="Ingredients" />
+                            <label for="checkbox-custom_32" class="checkbox-custom-label">Ingredients</label>
+                          </div>
+
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_33" value="Leisure and Arts" />
+                            <label for="checkbox-custom_33" class="checkbox-custom-label">Leisure and Arts</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_34" value="Media" />
+                            <label for="checkbox-custom_34" class="checkbox-custom-label">Media</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_35" value="Metals and Mining" />
+                            <label for="checkbox-custom_35" class="checkbox-custom-label">Metals and Mining</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_36" value="Paper and Packaging" />
+                            <label for="checkbox-custom_36" class="checkbox-custom-label">Paper and Packaging</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_37" value="Pharmaceuticals and Healthcare" />
+                            <label for="checkbox-custom_37" class="checkbox-custom-label">Pharmaceuticals and
+                              Healthcare</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_38" value="Retailing" />
+                            <label for="checkbox-custom_38" class="checkbox-custom-label">Retailing</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_39" value="Technology and Communications" />
+                            <label for="checkbox-custom_39" class="checkbox-custom-label">Technology and
+                              Communications</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_40" value="Textiles" />
+                            <label for="checkbox-custom_40" class="checkbox-custom-label">Textiles</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_41" value="Transport and Logistics" />
+                            <label for="checkbox-custom_41" class="checkbox-custom-label">Transport and
+                              Logistics</label>
+                          </div>
+
+                          <div class="checkbox">
+                            <input type="checkbox" name="dropdown-checkbox-group" class="check checkbox-custom"
+                              id="checkbox-custom_42" value="Wholesale" />
+                            <label for="checkbox-custom_42" class="checkbox-custom-label">Wholesale</label>
+                          </div>
+
+                        </div>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-center align-items-center px-0"
+                      style="border: none;">
+
+                      <div class="col-12 col-md-10">
+                        <select class="form-select select-country" aria-label="Default select example">
+                          <option value="">Fiscal Year End</option>
+                          <option value="1">January</option>
+                          <option value="2">February</option>
+                          <option value="3">March</option>
+                          <option value="4">April</option>
+                          <option value="5">May</option>
+                          <option value="6">June</option>
+                          <option value="7">July</option>
+                          <option value="8">August</option>
+                          <option value="9">September</option>
+                          <option value="10">October</option>
+                          <option value="11">November</option>
+                          <option value="12">December</option>
+                        </select>
+                      </div>
+
+                    </li>
+
+                    <hr class="my-4"/>
+
+                    <div class="row mb-4 d-flex justify-content-evenly align-items-center">
+
+                      <div class="col-5 col-md-5 col-lg-5 col-xl-5">
+                        <button type="reset" id="resetButton" class="btn btn-custom-grey btn-block">
+                          Reset
+                        </button>
+                      </div>
+
+                      <div class="col-5 col-md-5 col-lg-5 col-xl-5">
+                        <a href="/place-order.html" class="btn btn-custom btn-block">
+                          Apply
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-8">
+
+              <div class="card mb-4">
+                <div class="card-header py-3">
+
+                  <!-- <h5 class="mb-0">Cart Items</h5> -->
+                  <div class="mb-0 d-flex justify-content-evenly align-items-center reserach-store-search-row">
+
+                    <div class="col-12 col-md-5 col-lg-5 col-xl-5 text-start">
+                      <div class="input-group">
+                        <div class="form-outline" data-mdb-input-init>
+                          <input type="search" id="form1" class="form-control" placeholder="Serach..." />
+                          <!-- <label class="form-label" for="form1">Search</label> -->
+                        </div>
+                        <button type="button" class="btn btn-custom" data-mdb-ripple-init>
+                          <i class="fas fa-search"></i>
+                        </button>
+                      </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-2 col-lg-2 col-xl-2 d-flex">
+                      <select class="form-select select-search" aria-label="Default select example">
+                        <option value="">Sort By</option>
+                        <option value="asc">Title A-Z</option>
+                        <option value="desc">Title Z-A</option>
+                        <option value="low">Price Low-to-High</option>
+                        <option value="highest">Price High-to-Low</option>
+                        <option value="newer">Date</option>
+                        <option value="older">Date (Older First)</option>
+                      </select>
+                    </div>
+
+                    <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                      <select class="form-select select-search" aria-label="Default select example">
+                        <option value="">No. Of Records</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="10">10</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                      </select>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="card-body">
+
+                  <div class="row mb-4 d-flex justify-content-between align-items-center cart-report-details">
+
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 text-start mt-3 report-details-title">
+
+                      <p class="text-black mb-0">
+                        <!-- <i class="fas fa-chart-area icon-research"></i> -->
+                        COMPANY INTELLIGENCE
+                      </p>
+
+                      <a href="#" class="research-report-title mt-3">
+                        <h6 class="">Lorem ipsum dolor, sit amet consectetur adipisicing.</h6>
+                      </a>
+
+                      <!-- <div class="row mt-3 mb-2 d-flex "> -->
+
+                      <div class="research-report-user mt-2 mb-2">
+                        <p class="text-muted mb-0"><i class="fas fa-user icon-research"></i>
+                          John Doe </p>
+                        <p class="text-muted research-report-date mb-0"><i class="fas fa-clock icon-research"></i>
+                          xx-yy-zz </p>
+                      </div>
+
+                      <!-- <div class="col-12 col-md-3 col-lg-3 col-xl-3 d-flex research-report-date">
+                          <p class="text-black mb-0"><i class="fas fa-clock icon-research"></i>
+                            xx-yy-zz </p>
+
+                        </div> -->
+
+                      <!-- </div> -->
+
+                      <p class="text-black mb-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi modi repellendus est cumque
+                        itaque quis dolorem omnis sit odio accusantium!. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Inventore pariatur illo velit, repellat natus explicabo eveniet eius
+                        voluptatem quia culpa?
+                      </p>
+
+                      <div class="row justify-content-between mt-3 mb-2 d-flex ">
+
+                        <!-- <div class="col-md-6 col-lg-6 col-xl-6 align-self-center text-start report-details-title">
+                          <p class="text-black mb-0">
+                            <i class="fas fa-industry icon-research"></i>
+                            <strong>Industry: </strong> Chemicals
+                          </p>
+                          <p class="text-black mb-0">
+                            <i class="fas fa-globe-asia icon-research"></i>
+                            <strong>Country: </strong> India
+                          </p>
+                        </div> -->
+                        <div class="col-10 col-md-3 col-lg-3 col-xl-3 research-report-price">
+                          <p class="text-center mb-2">$ 244.00</p>
+                        </div>
+                        <div class="col-10 col-md-3 col-lg-3 col-xl-3 research-report-price">
+                          <!-- <h3 class="text-center mb-2">$ 244.00</h3> -->
+                          <a href="/place-order.html" class="btn research-report-btn-custom btn-block">
+                            <i class="feather-shopping-cart shopping-cart"></i> Add To Cart
+                          </a>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <!-- <div class="col-10 col-md-3 col-lg-3 col-xl-3 research-report-price">
+                      <h3 class="text-center mb-2">$ 244.00</h3>
+                      <a href="/place-order.html" class="btn research-report-btn-custom btn-block">
+                        <i class="feather-shopping-cart shopping-cart"></i> Add To Cart
+                      </a>
+
+                    </div> -->
+
+                  </div>
+
+                  <hr class="my-4" />
+
+                </div>
+
+              </div>
+
+              <div class="card mb-4 mb-lg-0">
+                <div class="card-body">
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item">
+                        <a class="page-link pagination-arrow" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link page-link-active" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link pagination-arrow" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+  </section>
+  <!-- Section: Design Block -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-white footer mt-0 footer-section wow fadeIn" data-wow-delay="0.1s" style="border: ;">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h4 class="mb-4">Our Office</h4>
+          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+          <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="mb-4">Quick Links</h4>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Contact Us</a>
+          <a class="btn btn-link" href="">Our Services</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <!-- <a class="btn btn-link" href="">Support</a> -->
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="mb-4">Services</h4>
+          <a class="btn btn-link" href="">Financial Planning</a>
+          <a class="btn btn-link" href="">Cash Investment</a>
+          <a class="btn btn-link" href="">Financial Consultancy</a>
+          <a class="btn btn-link" href="">Business Loans</a>
+          <a class="btn btn-link" href="">Business Analysis</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Copyright Start -->
+  <div class="container-fluid copyright py-4">
+    <div class="container container-duplicate">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center text-md-center mb-3 mb-md-0">
+          © Copyright 2024 | <a class="" href="index.html">ResearchFOLKS</a> All Right Reserved
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Copyright End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+<script src="js/navbar.js"></script>
+
+
+<!-- research-store-scripts -->
+<script src="js/research-store.js"></script>
+
+
+<!-- dashboard scripts -->`
+<script src="js/dashboard-js/bootstrap.bundle.min.js"></script>
+<script src="js/dashboard-js/Chart.min.js"></script>
+<script src="js/dashboard-js/jvectormap.min.js"></script>
+<script src="js/dashboard-js/world-merc.js"></script>
+<script src="js/dashboard-js/main.js"></script>
+
+<script src="js/dashboard-js/chart-work.js"></script>
+
+<script src="js/dashboard-js/dashboard-toggle.js"></script>
+
+</body>
+</html>

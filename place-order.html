@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ResearchFOLKS::Checkout</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicon -->
+  <link href="images/ResearchFolks.gif.png" rel="icon">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="lib/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="lib/icons/feather.css">
+
+  <!-- research-store dropdwon css -->
+  <link rel="stylesheet" href="css/select-search.css">
+
+  <!-- for sign-in/sign-up/cart/place0order/order-details/research-store/dashboard pages -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/dashboard-css/main.css">
+  <link rel="stylesheet" href="css/dashboard-css/lineicons.css">
+  <link rel="stylesheet" href="css/dashboard-css/materialdesignicons.min.css">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body style="overflow-x: hidden;">
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+  </div>
+  <!-- Spinner End -->
+
+  <section class="bg1">
+    <div class="flex-containerrow1">
+
+      <div class="flex-item1">
+
+        <i class="fas fa-envelope"></i>
+        <p class="flex-item1para"> <a href="mailto:sales@researchfolks.com" target="_blank">sales@researchfolks.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="flex-containerrow2">
+
+      <div class="flex-item2">
+        <i class="fas fa-phone-volume subheader-phone"></i>
+        <p class="flex-item2para"><a href="tel:7177516964" target="_blank">PA (717) 751-6964</a></p>
+      </div>
+
+      <p class="mb-0">|</p>
+
+      <div class="flex-item2">
+        <a href="#"> <i class="fab fa-facebook-f subheader-icon1"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in subheader-icon2"></i></a>
+        <a href="#"><i class="fab fa-twitter subheader-icon3"></i></a>
+        <a href="#"><i class="fab fa-instagram subheader-icon4"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-navbar d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+
+        <h1> <img src="images/researchfolks-logo.png" alt=""> <span></span></h1>
+      </a>
+
+      <div class="d-flex align-items-center">
+        <a href="cart.html" class="mobile-cart">
+          <div class="cart">
+            <span class="count">0</span>
+            <!-- <i class="fas fa-shopping-cart"></i> -->
+            <i class="feather-shopping-cart shopping-cart"></i>
+          </div>
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="research-store.html">Research Store</a></li>
+          <li><a href="blog.html" class="">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Company Intelligence</a></li>
+              <li><a href="#">Industry Intelligence</a></li>
+              <li><a href="#">Research Databases</a></li>
+
+            </ul>
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+          <!-- <li> -->
+          <a href="cart.html" class="desktop-cart">
+            <div class="cart">
+              <span class="count">0</span>
+              <!-- <i class="fas fa-shopping-cart"></i> -->
+              <i class="feather-shopping-cart shopping-cart"></i>
+            </div>
+          </a>
+          <!-- </li> -->
+
+          <a href="sign-in.html" class="request-btn1">Login/Signup</a>
+
+          <a href="Become-Our-Analyst.html" class="request-btn2">Become Our Analyst</a>
+
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Section: Design Block -->
+  <section class="text-center" style="background-color: #f5f6f7; padding-top: 0px; padding-bottom: 70px;">
+    <!-- Background image -->
+    <div class="p-5 bg-image sign-up-img"></div>
+    <!-- Background image -->
+
+    <div class="col-md-12 m-auto">
+      <div class="card mx-3 mx-md-5 shadow-5-strong" style="
+      margin-top: -100px;
+      background: hsla(0, 0%, 100%, 0.8);
+      backdrop-filter: blur(30px);
+      ">
+
+        <div class="container py-5 px-md-5">
+          <div class="row d-flex justify-content-center my-4">
+            <h1 class="fw-bold mb-5 wow fadeInUp"><i class="fas fa-shopping-cart"></i></h1>
+            <div class="col-md-7">
+
+              <div class="card mb-4">
+                <div class="card-header py-3">
+                  <h5 class="mb-0">Billing Information</h5>
+                </div>
+
+                <div class="card-body" style="">
+
+                  <form action="">
+                    <div class="col-12">
+                      <div class="row mx-0">
+
+                        <div class="col-sm-6 place-order-input">
+                          <div class="form-outline mt-3">
+                            <input type="text" id="form1" class="form-control order-form-input"
+                              placeholder="First Name" />
+                          </div>
+                        </div>
+                        <div class="col-sm-6 mt-sm-0 place-order-input">
+                          <div class="form-outline mt-3">
+                            <input type="text" id="form2" class="form-control order-form-input"
+                              placeholder="Last Name"/>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row mx-0 mb-1">
+
+                        <div class="col-sm-6 mt-3 place-order-input">
+                          <div class="form-outline">
+                            <input type="text" id="form1" class="form-control order-form-input"
+                              placeholder="Phone Number"/>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 mt-3 place-order-input">
+                          <div class="form-outline">
+                            <input type="text" id="form1" class="form-control order-form-input"
+                              placeholder="Email Address" />
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="row mt-3 mx-0">
+
+                        <div class="col-12 mt-3 place-order-input">
+                          <div class="form-outline">
+                            <input type="text" id="form5" class="form-control order-form-input" placeholder="Address" />
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6 mt-4 pe-sm-2 place-order-input">
+                          <div class="form-outline">
+                            <input type="text" id="form7" class="form-control order-form-input" placeholder="Country" />
+                          </div>
+                        </div>
+                        <div class="col-sm-6 mt-4 ps-sm-0 place-order-input">
+                          <div class="form-outline">
+                            <input type="text" id="form8" class="form-control order-form-input" placeholder="State" />
+                          </div>
+                        </div>
+                        <div class="col-sm-6 mt-4 pe-sm-2 place-order-input">
+                          <div class="form-outline">
+                            <input type="text" id="form9" class="form-control order-form-input" placeholder="City" />
+                          </div>
+                        </div>
+                        <div class="col-sm-6 mt-4 ps-sm-0 place-order-input">
+                          <div class="form-outline">
+                            <input type="text" id="form10" class="form-control order-form-input"
+                              placeholder="Pin Code (Ex: 400703)" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row mt-4">
+                        <div class="col-12 col-md-4 m-auto">
+                          <button type="submit" id=""
+                            class="btn btn-custom d-block mx-auto btn-submit btn-block">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-5">
+              <div class="card mb-4">
+                <div class="card-header py-3">
+                  <!-- <h5 class="mb-0">Your Order</h5> -->
+                  <div class="mb-0 d-flex justify-content-between align-items-center">
+                    <div class="col-5 col-md-5 col-lg-5 col-xl-6 text-start ">
+                      <h5 class="mb-0 cart-row-heading">Report Title</h5>
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-3 col-xl-2 d-flex">
+                      <h5 class="mb-0  cart-row-heading">Category</h5>
+                    </div>
+
+                    <div class="col-3 col-md-3 col-lg-2 col-xl-3">
+                      <h5 class="mb-0 cart-row-heading">Price</h5>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="card-body">
+
+                  <div class="row mb-4 d-flex justify-content-between align-items-center">
+
+                    <div class="col-md-6 col-lg-6 col-xl-6 text-start report-details-title">
+                      <h6 class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing.</h6>
+                      <h6 class="text-black mb-0">Lorem ipsum dolor sit.</h6>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                      <h6 class="text-black mb-0 m-auto report-details-category">Single</h6>
+
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-3 report-details-price">
+                      <h6 class="mb-0">€ 44.00</h6>
+                      <h6 class="text-black mb-0">(15% Off)</h6>
+                    </div>
+
+                  </div>
+
+                  <hr class="my-4"/>
+
+                  <div class="row mb-4 d-flex justify-content-between align-items-center">
+
+                    <div class="col-md-6 col-lg-6 col-xl-6 text-start report-details-title">
+                      <h6 class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing.</h6>
+                      <h6 class="text-black mb-0">Lorem ipsum dolor sit.</h6>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                      <h6 class="text-black mb-0 m-auto report-details-category">Single</h6>
+
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-3 report-details-price">
+                      <h6 class="mb-0">€ 44.00</h6>
+                      <h6 class="text-black mb-0">(15% Off)</h6>
+                    </div>
+
+                  </div>
+
+                  <hr class="my-4"/>
+
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                      Subtotal
+                      <span>$53.98</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                      <p class="mt-0 mb-0">CGST<small>(9.00%)</small></p>
+                      <span>$98</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                      <p class="mt-0 mb-0">SGST<small>(7.00%)</small></p>
+                      <span>$33</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                      <div>
+                        <strong>Total amount</strong>
+                        <strong>
+                          <p class="mb-0">(including VAT)</p>
+                        </strong>
+                      </div>
+                      <span><strong>$53.98</strong></span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-1">
+                      <div>
+                        <strong>Select Payment Method</strong>
+                      </div>
+
+                    </li>
+
+                  </ul>
+
+                  <div class="row mt-0 mb-4 d-flex justify-content-start align-items-center">
+
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-4 d-flex">
+                      <!-- <h6 class="text-black mb-0 m-auto">Single</h6> -->
+                      <a href="#"><img src="images/PayPal.png" class="place-order-logo-img" alt="paypal"></a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-4">
+                      <!-- <h6 class="mb-0">€ 44.00</h6>
+                      <h6 class="text-black mb-0">(15% Off)</h6> -->
+                      <a href=""><img src="images/razorpay_logo.png" class="place-order-logo-img" alt="razor-pay"></a>
+                    </div>
+
+                  </div>
+
+                  <a href="/order-details.html" class="btn btn-custom btn-lg btn-block">
+                    Proceed
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-white footer mt-0 footer-section wow fadeIn" data-wow-delay="0.1s" style="border: ;">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h4 class="mb-4">Our Office</h4>
+          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+          <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="mb-4">Quick Links</h4>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Contact Us</a>
+          <a class="btn btn-link" href="">Our Services</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <!-- <a class="btn btn-link" href="">Support</a> -->
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="mb-4">Services</h4>
+          <a class="btn btn-link" href="">Financial Planning</a>
+          <a class="btn btn-link" href="">Cash Investment</a>
+          <a class="btn btn-link" href="">Financial Consultancy</a>
+          <a class="btn btn-link" href="">Business Loans</a>
+          <a class="btn btn-link" href="">Business Analysis</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Copyright Start -->
+  <div class="container-fluid copyright py-4">
+    <div class="container container-duplicate">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center text-md-center mb-3 mb-md-0">
+          © Copyright 2024 | <a class="" href="index.html">ResearchFOLKS</a> All Right Reserved
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Copyright End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+<script src="js/navbar.js"></script>
+
+<!-- research-store-scripts -->
+<script src="js/research-store.js"></script>
+
+<!-- dashboard scripts -->
+<script src="js/dashboard-js/bootstrap.bundle.min.js"></script>
+<script src="js/dashboard-js/Chart.min.js"></script>
+<script src="js/dashboard-js/jvectormap.min.js"></script>
+<script src="js/dashboard-js/world-merc.js"></script>
+<script src="js/dashboard-js/main.js"></script>
+
+<script src="js/dashboard-js/chart-work.js"></script>
+
+<script src="js/dashboard-js/dashboard-toggle.js"></script>
+
+
+</body>
+</html>

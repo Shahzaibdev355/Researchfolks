@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ResearchFOLKS::Dashboard</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicon -->
+  <link href="images/ResearchFolks.gif.png" rel="icon">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="lib/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="lib/icons/feather.css">
+
+  <!-- research-store dropdwon css -->
+  <link rel="stylesheet" href="css/select-search.css">
+
+  <!-- for sign-in/sign-up/cart/place0order/order-details/research-store/dashboard pages -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/dashboard-css/main.css">
+  <link rel="stylesheet" href="css/dashboard-css/lineicons.css">
+  <link rel="stylesheet" href="css/dashboard-css/materialdesignicons.min.css">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body style="overflow-x: hidden;">
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+  </div>
+  <!-- Spinner End -->
+
+  <section class="bg1">
+    <div class="flex-containerrow1">
+
+      <div class="flex-item1">
+
+        <i class="fas fa-envelope"></i>
+        <p class="flex-item1para"> <a href="mailto:sales@researchfolks.com" target="_blank">sales@researchfolks.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="flex-containerrow2">
+
+      <div class="flex-item2">
+        <i class="fas fa-phone-volume subheader-phone"></i>
+        <p class="flex-item2para"><a href="tel:7177516964" target="_blank">PA (717) 751-6964</a></p>
+      </div>
+
+      <p class="mb-0">|</p>
+
+      <div class="flex-item2">
+        <a href="#"> <i class="fab fa-facebook-f subheader-icon1"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in subheader-icon2"></i></a>
+        <a href="#"><i class="fab fa-twitter subheader-icon3"></i></a>
+        <a href="#"><i class="fab fa-instagram subheader-icon4"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-navbar d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+
+        <h1> <img src="images/researchfolks-logo.png" alt=""> <span></span></h1>
+      </a>
+
+      <div class="d-flex align-items-center">
+        <a href="cart.html" class="mobile-cart">
+          <div class="cart">
+            <span class="count">0</span>
+            <!-- <i class="fas fa-shopping-cart"></i> -->
+            <i class="feather-shopping-cart shopping-cart"></i>
+          </div>
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="research-store.html">Research Store</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Products</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Company Intelligence</a></li>
+              <li><a href="#">Industry Intelligence</a></li>
+              <li><a href="#">Research Databases</a></li>
+            </ul>
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+          <!-- <li> -->
+          <a href="cart.html" class="desktop-cart">
+            <div class="cart">
+              <span class="count">0</span>
+              <!-- <i class="fas fa-shopping-cart"></i> -->
+              <i class="feather-shopping-cart shopping-cart"></i>
+            </div>
+          </a>
+          <!-- </li> -->
+
+          <a href="sign-in.html" class="request-btn1">Login/Signup</a>
+
+          <a href="Become-Our-Analyst.html" class="request-btn2">Become Our Analyst</a>
+
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Section: Design Block -->
+  <section class="text-center" style="background-color: #f5f6f7; padding-top: 0px; padding-bottom: 20px;">
+    <!-- Background image -->
+    <!-- <div class="p-5 bg-image sign-up-img"></div> -->
+    <!-- Background image -->
+
+    <div class="col-md-12 m-auto">
+      <div class="card mx-3 mx-md-5 shadow-5-strong" style="
+      margin-top: 20px;
+      background: hsla(0, 0%, 100%, 0.8);
+      backdrop-filter: blur(30px);
+      ">
+
+        <div class="container py-3">
+          <div class="row d-flex justify-content-center my-4">
+          <!--  <h1 class="fw-bold mb-5 wow fadeInUp">DashBoard</h1> -->
+
+            <div id="column-1" class="col-12 col-md-3 align-self-center dashboard-sidebar">
+              <div class="card mb-4">
+                <!-- <div class="card-header py-3">
+                  <h5 class="mb-0">Filter Reports</h5>
+                </div> -->
+                <div class="card-body" id="">
+
+                  <!-- ======== sidebar-nav start =========== -->
+                  <aside class="sidebar-nav-wrapper" style="">
+                    <div class="navbar-logo">
+                      <a href="#">
+                        <img src="images/profile-image.png" alt="logo" />
+                      </a>
+                      <div>
+                        <strong>Ram Karnati</strong>
+                        <!-- <p>Lorem, ipsum dolor.</p> -->
+                      </div>
+                    </div>
+
+                    <nav class="sidebar-nav">
+                      <ul>
+
+                        <li class="nav-item">
+                            <a href="invoice.html">
+                              <span class="icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                              </span>
+                              <span class="text"> Dashboard </span>
+                            </a>
+                          </li>
+
+                        <span class="divider">
+                          <hr/>
+                        </span>
+
+                        <li class="nav-item nav-item-has-children">
+                          <a href="#0" class="collapsed" data-bs-toggle="collapse" data-bs-target="#ddmenu_5"
+                          aria-controls="ddmenu_5" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="icon">
+                            <i class="fas fa-file-alt"></i>
+                          </span>
+                          <span class="text"> My Reports </span>
+                        </a>
+                        <ul id="ddmenu_5" class="collapse dropdown-nav">
+                          <li>
+                            <a href="#"><i class="fas fa-cube"></i> Elements 1</a>
+                          </li>
+
+                          <li>
+                            <a href="#"><i class="fas fa-cube"></i> Elements 2</a>
+                          </li>
+                        </ul>
+
+                      </li>
+                        <li class="nav-item">
+                          <a href="tables.html">
+                            <span class="icon">
+                              <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span class="text"> My Orders </span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="tables.html">
+                            <span class="icon">
+                              <i class="fas fa-user"></i>
+                            </span>
+                            <span class="text"> Profile Setting </span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="tables.html">
+                            <span class="icon">
+                              <i class="fas fa-sign-out-alt"></i>
+                            </span>
+                            <span class="text"> Sign Out </span>
+                          </a>
+                        </li>
+                        <span class="divider">
+                          <hr />
+                        </span>
+
+                      </ul>
+                    </nav>
+
+                    <!-- <div class="promo-box">
+                      <div class="promo-icon">
+                        <img class="mx-auto" src="./assets/images/logo/logo-icon-big.svg" alt="Logo">
+                      </div>
+                      <h3>Upgrade to PRO</h3>
+                      <p>Improve your development process and start doing more with PlainAdmin PRO!</p>
+                      <a href="https://plainadmin.com/pro" target="_blank" rel="nofollow"
+                        class="main-btn primary-btn btn-hover">
+                        Upgrade to PRO
+                      </a>
+                    </div> -->
+                  </aside>
+
+                  <div class="overlay"></div>
+
+                </div>
+              </div>
+            </div>
+
+            <div id="column-2" class="col-12 col-md-9 dashboard-information">
+
+              <div class="card mb-4">
+                <!-- <div class="card-header py-3">
+                  <h5 class="mb-0">Your Order</h5>
+                </div> -->
+
+                <!-- ========== header start ========== -->
+                <header class="header" style="">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12 col-lg-5 col-md-5 col-6 dashboard-information-serach-bar">
+                        <div class="header-left d-flex align-items-center">
+                          <div class="menu-toggle-btn mr-15">
+                            <button id="side-close-btn" class="main-btn btn-custom">
+                              <i id="sidebar-close" class="lni lni-chevron-left me-2"></i>
+                              <i id="sidebar-open" class="lni lni-menu me-2"></i>
+                              Menu
+                            </button>
+                          </div>
+                          <div class="header-search d-md-flex" style="width: 100%;">
+                            <form action="#">
+                              <input type="text" placeholder="Search..." />
+                              <button><i class="lni lni-search-alt"></i></button>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-7 col-md-7 col-6">
+                        <div class="header-right dashboard-information-pub-report">
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </header>
+                <!-- ========== header end ========== -->
+
+                <div class="card-body dashboard-second-card">
+
+                  <!-- ======== main-wrapper start =========== -->
+                  <main class="main-wrapper" style="">
+
+
+                    <section class="section" style="padding-top: 10px; padding-bottom: 10px;">
+                      <div class="container-fluid">
+
+                        <!-- ========== title-wrapper end ========== -->
+
+
+
+
+
+                        <!-- =====================Form Input===================== -->
+                        <div class="form-elements-wrapper mt-4">
+                          <div class="row mx-0">
+
+                            <!-- input style start -->
+                            <div class="card-style mb-0" style="">
+
+                              <form>
+
+                                <h3 class="text-start mb-3">Section :: Company Key Facts</h3>
+
+                                  <div class="row">
+                                    <div class="col-md-8 mb-0"> <!-- Set width to 70% (8 out of 12 columns) -->
+                                      <div class="input-style-1">
+                                        <input type="text" placeholder="Company Name" />
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4 mb-0"> <!-- Set width to 30% (4 out of 12 columns) -->
+                                      <div class="select-style-1">
+                                        <div class="select-position">
+                                          <select>
+                                            <option value="">-- Select Company Type --</option>
+                                            <option value="">Public</option>
+                                            <option value="">Private</option>
+                                            <option value="">Startup</option>
+                                            <option value="">Non-profit</option>
+                                          </select>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="row">
+                                    <div class="col-md-8 mb-0">
+                                      <div class="select-style-1">
+                                        <div class="select-position">
+                                          <select>
+                                            <option value="">-- Select Stock Exchange --</option>
+                                            <option value="">NASDAQ Stock Exchange</option>
+                                            <option value="">New York Stock Exchange</option>
+                                            <option value="">London Stock Exchange</option>
+                                            <option value="">Bombay Stock Exchange</option>
+                                          </select>
+                                        </div>
+                                      </div>
+                                    </div>
+                                      <div class="col-md-4 mb-0">
+                                      <div class="input-style-1">
+                                        <input type="text" placeholder="Ticker Symbol" />
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="row">
+                                    <div class="col-md-12 mb-0">
+                                      <div class="select-style-1">
+                                        <div class="select-position">
+                                          <select>
+                                            <option value="">-- Select Industry --</option>
+                                            <option value="">Automotive</option>
+                                            <option value="">Retail</option>
+                                            <option value="">Manufacturing</option>
+                                            <option value="">Media</option>
+                                          </select>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+
+                                  <div class="row">
+                                    <div class="col-md-6 mb-0">
+                                      <div class="input-style-1">
+                                        <input type="text" placeholder="Founding Year" />
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 mb-0">
+                                      <div class="input-style-1">
+                                        <input type="text" placeholder="Headcount" />
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="row">
+                                    <div class="col-md-6 mb-0">
+                                      <div class="input-style-1">
+                                        <input type="text" placeholder="State" />
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 mb-0">
+                                      <div class="input-style-1">
+                                        <input type="text" placeholder="Country" />
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="input-style-1">
+                                    <textarea placeholder="Company Address" rows="5"></textarea>
+                                  </div>
+
+                                  <div class="row">
+                                  <div class="col-md-12 mb-0">
+                                  <div class="input-style-1">
+                                    <input type="text" placeholder="Website Url" />
+                                  </div>
+                                </div>
+                              </div>
+
+                                  <div class="input-style-1">
+                                    <textarea placeholder="Business Overview" rows="5"></textarea>
+                                  </div>
+
+                                  <h3 class="text-start mb-3">Section :: Senior Leadership</h3>
+
+                                  <div class="row">
+
+                                    <div class="col-md-4 mb-0">
+                                    <div class="input-style-1">
+                                      <input type="text" placeholder="Name" />
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4 mb-0">
+                                  <div class="input-style-1">
+                                    <input type="text" placeholder="Job Title" />
+                                  </div>
+                                </div>
+
+                                <div class="col-md-2 mb-0">
+                                <div class="input-style-1">
+                                  <input type="text" placeholder="Age" />
+                                </div>
+                              </div>
+
+                              <div class="col-md-2 mb-0">
+                              <div class="input-style-1">
+                                <input type="text" placeholder="Since" />
+                              </div>
+                            </div>
+
+                            <div class="col-md-12 mb-0">
+                            <div class="input-style-1">
+                              <textarea placeholder="Bio" rows="5"></textarea>
+                            </div>
+                          </div>
+
+                            </div>
+
+                            <h3 class="text-start mb-3">Section :: History</h3>
+
+                            <div class="row">
+
+                              <div class="col-md-6 mb-0">
+                                <div class="select-style-1">
+                                  <div class="select-position">
+                                    <select>
+                                      <option value="">-- Select Event Name --</option>
+                                      <option value="">Inception</option>
+                                      <option value="">Geographicl Expansion</option>
+                                      <option value="">Merger/Acquisition</option>
+                                      <option value="">Product/Service Launch</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+
+                            <div class="col-md-6 mb-0">
+                            <div class="input-style-1">
+                              <input type="text" placeholder="Event Date" />
+                            </div>
+                          </div>
+
+                            <div class="col-md-12 mb-0">
+                            <div class="input-style-1">
+                              <textarea placeholder="Overview" rows="3"></textarea>
+                            </div>
+
+                            </div>
+                          </div>
+
+                          <h3 class="text-start mb-3">Section :: Company Financials</h3>
+
+                          <div class="row">
+
+
+                            <div class="col-md-6 mb-0">
+                              <div class="select-style-1">
+                                <div class="select-position">
+                                  <select>
+                                    <option value="">-- Select Fiscal Year --</option>
+                                    <option value="">2024</option>
+                                    <option value="">2023</option>
+                                    <option value="">2022</option>
+                                    <option value="">2021</option>
+                                    <option value="">2020</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6 mb-0">
+                              <div class="select-style-1">
+                                <div class="select-position">
+                                  <select>
+                                    <option value="">-- Select Fiscal Year End --</option>
+                                    <option value="">January</option>
+                                    <option value="">February</option>
+                                    <option value="">March</option>
+                                    <option value="">April</option>
+                                    <option value="">May</option>
+                                    <option value="">June</option>
+                                    <option value="">July</option>
+                                    <option value="">August</option>
+                                    <option value="">September</option>
+                                    <option value="">October</option>
+                                    <option value="">November</option>
+                                    <option value="">December</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-md-3 mb-0">
+                              <div class="select-style-1">
+                                <div class="select-position">
+                                  <select>
+                                    <option value="">-- Reported Currency --</option>
+                                    <option value="">US$</option>
+                                    <option value="">GBP</option>
+                                    <option value="">INR</option>
+                                    <option value="">CAD</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+
+                        <div class="col-md-3 mb-0">
+                        <div class="input-style-1">
+                          <input type="text" placeholder="Revenue" />
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 mb-0">
+                        <div class="select-style-1">
+                          <div class="select-position">
+                            <select>
+                              <option value="">-- Select Units --</option>
+                              <option value="">Actuals</option>
+                              <option value="">Trillion</option>
+                              <option value="">Billion</option>
+                              <option value="">Million</option>
+                              <option value="">Thousand</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="col-md-3 mb-0">
+                    <div class="input-style-1">
+                      <input type="text" placeholder="USD Conversion" />
+                    </div>
+                  </div>
+
+
+                    </div>
+
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-custom btn-block mb-4">
+                                  Submit
+                                </button>
+
+                              </form>
+
+                            </div>
+                            <!-- end card -->
+                            <!-- ======= input style end ======= -->
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </section>
+
+                  </main>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Section: Design Block -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-white footer mt-0 footer-section wow fadeIn" data-wow-delay="0.1s" style="border: ;">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h4 class="mb-4">Our Office</h4>
+          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+          <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square btn-social-media rounded-circle me-2" href=""><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="mb-4">Quick Links</h4>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Contact Us</a>
+          <a class="btn btn-link" href="">Our Services</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <!-- <a class="btn btn-link" href="">Support</a> -->
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="mb-4">Services</h4>
+          <a class="btn btn-link" href="">Financial Planning</a>
+          <a class="btn btn-link" href="">Cash Investment</a>
+          <a class="btn btn-link" href="">Financial Consultancy</a>
+          <a class="btn btn-link" href="">Business Loans</a>
+          <a class="btn btn-link" href="">Business Analysis</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Copyright Start -->
+  <div class="container-fluid copyright py-4">
+    <div class="container container-duplicate">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center text-md-center mb-3 mb-md-0">
+          © Copyright 2024 | <a class="" href="index.html">ResearchFOLKS</a> All Right Reserved
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Copyright End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+<script src="js/navbar.js"></script>
+
+<!-- research-store-scripts -->
+<script src="js/region-select.js"></script>
+<script src="js/checkbox-dropdown.js"></script>
+<script src="js/radio-dropdown.js"></script>
+<script src="js/reset.js"></script>
+
+<!-- dashboard scripts -->
+<script src="js/dashboard-js/bootstrap.bundle.min.js"></script>
+<script src="js/dashboard-js/Chart.min.js"></script>
+<script src="js/dashboard-js/jvectormap.min.js"></script>
+<script src="js/dashboard-js/world-merc.js"></script>
+<script src="js/dashboard-js/main.js"></script>
+
+<script src="js/dashboard-js/chart-work.js"></script>
+
+<script src="js/dashboard-js/dashboard-toggle.js"></script>
+
+</body>
+</html>
