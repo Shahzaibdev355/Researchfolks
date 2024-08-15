@@ -5,6 +5,11 @@ This repository contains the code for a website designed to provide comprehensiv
 customizable reports that can be easily integrated into corporate presentations. Our goal is to offer valuable insights and data at competitive prices to help 
 businesses make informed decisions.
 
+## Links:
+- [https://researchfolks.netlify.app/](https://researchfolks.netlify.app/)
+- [https://researchfolks.netlify.app/dashboard.html](https://researchfolks.netlify.app/dashboard.html)
+- [https://researchfolks.netlify.app/report-information](https://researchfolks.netlify.app/report-information)
+
 ## Features
 - **Market Research & Intelligence**: Access company, market, and industry intelligence through our customizable presentation-format reports.
 These reports are designed to be easily incorporated into your existing presentations, allowing you to present the right facts to your audience effectively.
