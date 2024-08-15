@@ -8,7 +8,7 @@ businesses make informed decisions.
 ## Links:
 - [https://researchfolks.netlify.app/](https://researchfolks.netlify.app/)
 - [https://researchfolks.netlify.app/dashboard.html](https://researchfolks.netlify.app/dashboard.html)
-- [https://researchfolks.netlify.app/report-information](https://researchfolks.netlify.app/report-information)
+- [https://researchfolks.netlify.app/Report-Information](https://researchfolks.netlify.app/Report-Information)
 
 ## Features
 - **Market Research & Intelligence**: Access company, market, and industry intelligence through our customizable presentation-format reports.
